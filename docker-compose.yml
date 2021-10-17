@@ -9,4 +9,5 @@ services:
 
       volumes:
         - ./Web/:/app
-      
+      ports:
+        - 80:4200
