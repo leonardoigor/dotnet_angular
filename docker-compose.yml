@@ -1,0 +1,12 @@
+version: '3'
+
+
+services:
+    angula:
+      build:
+        context: ./Web/
+      tty: true
+
+      volumes:
+        - ./Web/:/app
+      
