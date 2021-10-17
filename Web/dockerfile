@@ -5,4 +5,6 @@ COPY . /app
 WORKDIR /app
 
 
-# CMD node index.js
+RUN apt-get update && apt-get install -y curl
+RUN npm install -g npm
+RUN npm install -g @angular/cli
