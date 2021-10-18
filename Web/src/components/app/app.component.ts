@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-
-  routesLink: { name: string; link: string }[] = [
-    { name: 'Professores', link: 'professor' },
-    { name: 'Alunos', link: 'alunos' },
-    { name: 'Perfil', link: 'perfil' },
-    { name: 'DashBoard', link: 'dashboard' },
-  ];
 }

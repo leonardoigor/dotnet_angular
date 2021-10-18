@@ -1,9 +1,5 @@
-<nav>
-  <ul>
-    <li *ngFor="let route of routesLink">
-      <a routerLink="{{route.link}}">{{route.name}}</a>
-    </li>
-  </ul>
-</nav>
-<router-outlet></router-outlet>
+<app-Nav></app-Nav>
 
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

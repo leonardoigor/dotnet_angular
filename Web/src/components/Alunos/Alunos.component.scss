@@ -1,0 +1,16 @@
+#selectedAluno::after {
+  content: "x";
+  position: absolute;
+  top: 0;
+  color: red;
+  font-size: 11px;
+  margin-left: 10px;
+}
+#selectedAluno {
+  cursor: pointer;
+  position: relative;
+}
+
+.table {
+  transition: all 2s;
+}
